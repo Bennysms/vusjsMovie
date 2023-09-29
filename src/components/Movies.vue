@@ -20,7 +20,7 @@
 
 <template>
 <div class="max-w-7xl mx-auto px-4 py-6 bg-gray-300">
-    <form @submit.prevent="SearchMovies()" class="flex gap-3">
+    <form @submit.prevent="SearchMovies()" class="flex gap-3 md:flex-row flex-col">
          <input type="search" placeholder="Trouvez vos filmes..." class="py-3 px-5 rounded-full text-gray-500 outline-none border-none" v-model="search">
          <input type="submit" value="Search" @click.prevent="SearchMovies()" class="py-3 px-5 rounded-full outline-none border-none cursor-pointer bg-[rgb(78,176,124)] text-white">
     </form>
