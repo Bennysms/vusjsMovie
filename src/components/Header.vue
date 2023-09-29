@@ -5,10 +5,10 @@ import Navbar from './Navbar.vue'
 
 <template>
   <Navbar />
-  <header class="bg-[rgb(78,176,124)] max-w-7xl mx-auto h-[500px] p-6">
+  <header class="bg-[rgb(78,176,124)] max-w-7xl mx-auto h-[500px] p-3 md:p-6">
     <div class="w-full h-full relative">
       <img src="../assets/bg.jpg" class="w-full h-full object-cover" />
-      <div class="absolute top-0 right-0 w-[400px] bg-[#1616166f] h-full p-6 pt-14 backdrop-blur-sm text-gray-300 ">
+      <div class="absolute top-0 right-0 w-[400px] bg-[#1616166f] h-full p-6 pt-14 backdrop-blur-sm text-gray-300 hidden sm:block">
         <h2 class="text-4xl font-bold mb-6">Movie Name</h2>
         <p class="text-justify leading-8 text-md text-gray-300">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
